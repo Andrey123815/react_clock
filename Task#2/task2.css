@@ -1,0 +1,19 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.wrap__semicircle {
+    width: 300px;
+    height: 300px;
+
+    clip-path: circle(50% at 0%);
+
+    background: red;
+    margin: auto;
+}
